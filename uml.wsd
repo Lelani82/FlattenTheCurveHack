@@ -1,0 +1,23 @@
+@startuml
+
+:Welcome Page;
+    split
+        #00FFFF:User Login In
+        (already signed up);
+    split again
+        #00FFFF:User Sign Up;
+        :Select Social Media platform to sign up with;
+        :Confirm we can access your Social Media Acounts;
+        :Select age bracket you fall into;
+        :Confirm we can import your contacts;
+    end split
+#FFFF00:Chatbox Questions
+
+* How are you feeling today? (Select emojis)
+* Which friends did you talk to today? (drop down contacts list)
+* How do you feel after talking to them? (Select emojis)
+* //add some more relevant questions// |
+#00FF00:Analyze answers (data analysis)>
+#FF007F:Suggestions (with links)]
+
+@enduml
