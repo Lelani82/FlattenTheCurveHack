@@ -2,7 +2,7 @@
 
 :Welcome Page;
     split
-        #00FFFF:User Login In
+        #00FFFF:User Log In
         (already signed up);
     split again
         #00FFFF:User Sign Up;
